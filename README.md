@@ -168,8 +168,10 @@ if __name__=="__main__":
     print(a.encryption("xyZ"))
     print(a.decryption(a.encryption("xyZ")))
 ```
+```python
 if __name__=="__main__":<br>
     a=Caesar()<br>
     print(a.encryption("xyz"))<br>
-    print(a.decryption(a.encryption("xyz")))<br>
+    print(a.decryption(a.encryption("xyz")))
+    ```
     이 코드로 암호화/복호화 의 결과를 알 수 있다. 
